@@ -12,6 +12,14 @@
 [Flutter 官方文档](https://docs.flutter.dev/)，那里提供了详细的教程、
 示例代码、移动开发指南以及完整的 API 文档。
 
+硬件部分
+需要安装有Ubuntu 18 至Ubuntu 24 均可
+需要安装配置SDK ，具体SDK参考下面部分
+-https://wiki.luckfox.com/zh/Luckfox-Pico/Luckfox-Pico-SDK
+由于本项目使用的是在官方SDK基础上进行的二次开发SDK，可以参考下面链接
+-https://liefyuan.blog.csdn.net/article/details/133148418
+登录开发板推荐使用ADB或者SSH
+
 ### 主要功能
 -【图传识别】:APP首页可显示摄像头实时图像，并通过预训练yolov5视觉模型进行识别检测。
 -【雷达判距】:APP首页可显示雷达距离矩阵信息。
@@ -25,3 +33,6 @@
 -Flutter 3.24.5
 -Dart 3.5.4
 -移动端第三方依赖包：（见pubspec.yaml）
+-C++
+-Python
+-OpenCV Mobile
